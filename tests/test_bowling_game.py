@@ -1,25 +1,4 @@
-# test_bowling_game.py
 
-# import unittest
-# from src.BowlingGame import BowlingGame
-
-
-# class TestBowlingGame(unittest.TestCase):
-#     def setUp(self):
-#         self.game = BowlingGame()
-
-#     # ... include all your test methods here ...
-
-#     def rollMany(self, pins, rolls):
-#         for i in range(rolls):
-#             self.game.roll(pins)
-
-
-# if __name__ == "__main__":
-#     unittest.main()
-
-
-# UPDATE
 import unittest
 from src.BowlingGame import BowlingGame
 
