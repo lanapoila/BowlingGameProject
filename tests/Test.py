@@ -1,6 +1,11 @@
 # File 1 (Test.py)
 # This file has information about test cases which you need to test.
 
+import sys
+import os
+
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+
 # import unittest
 # import BowlingGame
 
